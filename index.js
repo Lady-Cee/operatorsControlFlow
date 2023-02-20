@@ -51,7 +51,13 @@ If num = 40, pwr = 32. Then you log to your console in this format:
 If num = 50, pwr = 64.. Then you log to your console in this format:
 “The number 64 is the power of 2 nearest to 50.” */
 
-let positiveNum = 50;
+let positiveNum = 50; // takes positive number
+let pwr = [];  // stores the number
+Math.pow(positiveNum, y)
 
+for (let i =1; i <= positiveNum; i++){
+   pwr = 2**i;
 
+}
+console.log();
 
